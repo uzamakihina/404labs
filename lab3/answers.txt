@@ -1,0 +1,43 @@
+q1 
+
+you get the values from os.environ
+so you can print os.environ
+
+
+q2
+
+The environment variable with the key "QUERY_STRING" 
+contains the query parameter data
+ 
+
+q3
+
+The variable named HTTP_USER_AGENT contains the user 
+browser data
+
+q4
+
+
+
+first we initialize the cgi field storage s= cgi.FieldStorage()
+when the form is submitted, login.py is called it takes the data in the username and password from the
+html boxes and places them in the cgi fields.
+
+q5
+
+Set-Cookie: username = name
+Set-Cookie: password = password
+
+
+q6 
+
+cookie: username=name; password=password
+
+q7 
+
+cookies are used to save information locally on a users machine
+about a specific browser. This is used to speed up browsing speed, by
+loading data that already exists locally instead of loading through the internet
+which is slower.
+
+
