@@ -1,0 +1,46 @@
+
+
+Q1 
+
+https://github.com/uzamakihina/404labs/tree/master/lab4/mysite
+
+
+Q 2
+
+A Django welcome page that says the installed worked with a gif of a 
+rocket ship.
+
+Q 3
+
+/ Gives me a 404 error and 
+/polls linkes me to a page that says "Hello, world. You're at the polls index.
+
+Q 4
+
+Migrations are a way of activating changes made at INSTALLED_APPS 
+in settings.py and creates any database tables accordingly. 
+
+Q 5 #
+
+You see the a Authenticaion and Authorization menue
+And a POLLS menue with the option choices and questions
+
+In the admin.py file you can add custom models by importing them
+then implmenting them on the page by admin.site.register(your_model)
+
+
+Q 6 
+
+i see the text that is returned from polls/views.py
+so /poll/38/ shows You're looking at question 38
+    /polls/38/results shows You're looking at the results of question 38
+and /poll/38/vote shows You're voting on question 38
+
+An error appears when you dont put a number since the path specifies that it needs and int.
+If you specify the user input to be of type string it can accept any alphabet character.
+
+
+
+
+
+
