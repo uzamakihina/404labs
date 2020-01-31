@@ -1,5 +1,3 @@
-
-
 Q1 
 
 https://github.com/uzamakihina/404labs/tree/master/lab4/mysite
@@ -20,13 +18,14 @@ Q 4
 Migrations are a way of activating changes made at INSTALLED_APPS 
 in settings.py and creates any database tables accordingly. 
 
-Q 5 #
+Q 5 
 
-You see the a Authenticaion and Authorization menue
-And a POLLS menue with the option choices and questions
+You see the a Authentication and Authorization menu
+And a POLLS menu with the option choices and questions
 
-In the admin.py file you can add custom models by importing them
-then implmenting them on the page by admin.site.register(your_model)
+In the admin.py file you can add custom models by importing them first.
+Then implement them on the page by admin.site.register(your_model)
+This will make your custom model to show up on the admin page.
 
 
 Q 6 
@@ -36,11 +35,19 @@ so /poll/38/ shows You're looking at question 38
     /polls/38/results shows You're looking at the results of question 38
 and /poll/38/vote shows You're voting on question 38
 
-An error appears when you dont put a number since the path specifies that it needs and int.
+An error appears when you dont put a number since the path specifies that it must be of type int.
 If you specify the user input to be of type string it can accept any alphabet character.
 
+Q 7
+
+It is bad because if you hardcode urls, then if you need to change a url, you will have
+to go through all your code and change them manually at every instance of where that url is used. 
 
 
 
-
+Q 8 
+The benefits of using generic views is that you can easily place data you want to 
+displayed in a template rather than having to write them yourself.
+You should not use a generic view when you want to display a highly customized html 
+code.
 
